@@ -1,90 +1,317 @@
-# React + Vite + Hono + Cloudflare Workers
+# VDR SaaS Platform - Production-Grade Virtual Data Room
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/vite-react-template)
+A comprehensive Virtual Data Room (VDR) SaaS application built with modern technologies, featuring enterprise-grade security, document management, NDA workflows, billing, and analytics - comparable to Docusend, Digify, and other leading VDR providers.
 
-This template provides a minimal setup for building a React application with TypeScript and Vite, designed to run on Cloudflare Workers. It features hot module replacement, ESLint integration, and the flexibility of Workers deployments.
+## 🚀 Features
 
-![React + TypeScript + Vite + Cloudflare Workers](https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/fc7b4b62-442b-4769-641b-ad4422d74300/public)
+### Core VDR Functionality
+- **Secure Document Storage** - Cloudflare R2-based storage with presigned URLs
+- **Folder Structure** - Hierarchical document organization
+- **Version Control** - Track document versions and changes
+- **Bulk Upload** - Drag-and-drop multiple files with progress tracking
+- **Virus Scanning** - Automatic malware detection on uploads
 
-<!-- dash-content-start -->
+### Security Features
+- **Dynamic Watermarking** - User-specific watermarks with email, date, IP
+- **Screenshot Detection** - Detect and log screenshot attempts
+- **Copy/Paste Prevention** - Disable text selection and clipboard access
+- **Download Controls** - Granular download permissions per user/document
+- **Print Restrictions** - Block or allow printing with tracking
+- **Session Timeout** - Auto-logout after inactivity
+- **IP Restrictions** - Limit access by IP address/range
+- **Domain Restrictions** - Allow only specific email domains
 
-🚀 Supercharge your web development with this powerful stack:
+### NDA Management
+- **Custom NDA Templates** - Create reusable NDA templates
+- **Digital Signatures** - Canvas-based signature capture
+- **Required Fields** - Configurable form fields (name, email, company, date)
+- **NDA Gating** - Require signed NDA before document access
+- **Audit Trail** - Complete record of all NDA signings
+- **Expiration** - Set NDA validity periods
 
-- [**React**](https://react.dev/) - A modern UI library for building interactive interfaces
-- [**Vite**](https://vite.dev/) - Lightning-fast build tooling and development server
-- [**Hono**](https://hono.dev/) - Ultralight, modern backend framework
-- [**Cloudflare Workers**](https://developers.cloudflare.com/workers/) - Edge computing platform for global deployment
+### Access Control
+- **Role-Based Access** - Admin, Editor, Viewer roles
+- **Email Invitations** - Invite users with custom messages
+- **Expiring Access** - Set access expiration dates
+- **Instant Revocation** - Revoke access anytime
+- **Pending Approval** - Review and approve access requests
 
-### ✨ Key Features
+### Analytics & Tracking
+- **Document Views** - Track who viewed what and when
+- **View Duration** - Measure time spent on each document
+- **Page-Level Tracking** - See which pages were viewed
+- **Download Analytics** - Monitor download activity
+- **Geographic Data** - Track viewer location (country/city)
+- **Device Information** - Browser, OS, device type
+- **Activity Timeline** - Real-time activity feed
+- **Heatmaps** - Visual representation of engagement
 
-- 🔥 Hot Module Replacement (HMR) for rapid development
-- 📦 TypeScript support out of the box
-- 🛠️ ESLint configuration included
-- ⚡ Zero-config deployment to Cloudflare's global network
-- 🎯 API routes with Hono's elegant routing
-- 🔄 Full-stack development setup
-- 🔎 Built-in Observability to monitor your Worker
+### Billing & Subscription
+- **Multiple Plans** - Free, Starter, Professional, Enterprise
+- **Stripe Integration** - Secure payment processing
+- **Subscription Management** - Upgrade, downgrade, cancel
+- **Usage Tracking** - Monitor storage, VDR count, users
+- **Webhook Handling** - Automated subscription updates
+- **Invoice Generation** - Download billing history
 
-Get started in minutes with local development or deploy directly via the Cloudflare dashboard. Perfect for building modern, performant web applications at the edge.
+### White-Label Branding
+- **Custom Logo** - Upload organization logo
+- **Color Themes** - Customize primary colors
+- **Custom Domain** - Use your own domain
+- **Email Templates** - Branded email notifications
 
-<!-- dash-content-end -->
+### Admin Features
+- **User Management** - Add, remove, update user roles
+- **Organization Settings** - Configure global defaults
+- **Audit Logs** - Complete system activity trail
+- **Compliance Reports** - Generate compliance documentation
 
-## Getting Started
+## 🛠️ Tech Stack
 
-To start a new project with this template, run:
+### Frontend
+- **React 19** - Latest React with hooks
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first styling
+- **Radix UI** - Accessible component primitives
+- **Lucide Icons** - Beautiful icon library
+- **Recharts** - Data visualization
+- **React Dropzone** - File upload handling
+- **PDF.js** - PDF rendering
+- **jsPDF** - PDF generation
 
-```bash
-npm create cloudflare@latest -- --template=cloudflare/templates/vite-react-template
+### Backend
+- **Hono** - Lightweight, fast web framework
+- **Cloudflare Workers** - Edge computing platform
+- **Cloudflare D1** - SQLite database at the edge
+- **Cloudflare R2** - Object storage for documents
+- **Cloudflare KV** - Key-value store for sessions/cache
+- **Zod** - Schema validation
+- **JWT** - Authentication tokens
+- **bcrypt** - Password hashing
+
+### Integrations
+- **Stripe** - Payment processing
+- **Nodemailer** - Email notifications
+- **date-fns** - Date manipulation
+
+## 📁 Project Structure
+
+```
+/workspace
+├── src/
+│   ├── components/          # Reusable UI components
+│   │   ├── ui/              # Base UI components (button, input, card, dialog)
+│   │   ├── DocumentUploader.tsx
+│   │   ├── SecureDocumentViewer.tsx
+│   │   └── NDAForm.tsx
+│   ├── features/            # Feature-based modules
+│   │   ├── auth/            # Authentication flows
+│   │   ├── documents/       # Document management
+│   │   ├── vdr/             # VDR creation and management
+│   │   ├── billing/         # Subscription and payments
+│   │   ├── nda/             # NDA workflows
+│   │   ├── watermark/       # Watermarking logic
+│   │   ├── analytics/       # Analytics dashboard
+│   │   └── admin/           # Admin panel
+│   ├── hooks/               # Custom React hooks
+│   ├── lib/                 # Utility libraries
+│   │   └── utils/           # Helper functions
+│   ├── types/               # TypeScript type definitions
+│   ├── worker/              # Cloudflare Worker backend
+│   │   ├── index.ts         # Main worker entry
+│   │   └── api.ts           # API routes
+│   └── react-app/           # React application
+│       ├── App.tsx          # Main app component
+│       └── main.tsx         # Entry point
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── wrangler.json
 ```
 
-A live deployment of this template is available at:
-[https://react-vite-template.templates.workers.dev](https://react-vite-template.templates.workers.dev)
+## 🚀 Getting Started
 
-## Development
+### Prerequisites
+- Node.js 20+ 
+- npm or yarn
+- Cloudflare account (for deployment)
+- Stripe account (for billing)
 
-Install dependencies:
+### Installation
 
 ```bash
+# Install dependencies
 npm install
-```
 
-Start the development server with:
-
-```bash
+# Start development server
 npm run dev
-```
 
-Your application will be available at [http://localhost:5173](http://localhost:5173).
-
-## Production
-
-Build your project for production:
-
-```bash
+# Build for production
 npm run build
+
+# Deploy to Cloudflare
+npm run deploy
 ```
 
-Preview your build locally:
+### Environment Variables
 
-```bash
-npm run preview
+Create a `.env` file with:
+
+```env
+# Authentication
+JWT_SECRET_KEY=your-super-secret-jwt-key
+
+# Stripe
+STRIPE_SECRET_KEY=sk_test_...
+STRIPE_WEBHOOK_SECRET=whsec_...
+STRIPE_PRICE_ID_STARTER=price_...
+STRIPE_PRICE_ID_PROFESSIONAL=price_...
+STRIPE_PRICE_ID_ENTERPRISE=price_...
+
+# Email (optional)
+SMTP_HOST=smtp.example.com
+SMTP_PORT=587
+SMTP_USER=user@example.com
+SMTP_PASS=password
+
+# Application
+APP_URL=http://localhost:5173
+CORS_ORIGINS=http://localhost:5173,https://yourdomain.com
 ```
 
-Deploy your project to Cloudflare Workers:
+## 📊 Database Schema
 
-```bash
-npm run build && npm run deploy
-```
+The application uses Cloudflare D1 (SQLite) with the following tables:
 
-Monitor your workers:
+- `users` - User accounts
+- `organizations` - Tenant organizations
+- `virtual_data_rooms` - VDR instances
+- `documents` - Document metadata
+- `access_grants` - User permissions
+- `nda_templates` - NDA templates
+- `nda_agreements` - Signed NDAs
+- `activity_logs` - Audit trail
+- `subscriptions` - Billing subscriptions
+- `usage_metrics` - Usage tracking
+- `analytics_events` - Detailed analytics
 
-```bash
-npx wrangler tail
-```
+## 🔐 Security Considerations
 
-## Additional Resources
+1. **Authentication**: JWT-based auth with refresh tokens
+2. **Authorization**: Role-based access control (RBAC)
+3. **Encryption**: TLS in transit, encryption at rest
+4. **Watermarking**: Dynamic, user-specific watermarks
+5. **Access Logs**: Comprehensive audit trails
+6. **Session Management**: Configurable timeouts
+7. **CORS**: Strict origin policies
+8. **Rate Limiting**: API rate limiting enabled
 
-- [Cloudflare Workers Documentation](https://developers.cloudflare.com/workers/)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Documentation](https://reactjs.org/)
-- [Hono Documentation](https://hono.dev/)
+## 💰 Pricing Tiers
+
+### Free ($0/month)
+- Up to 3 VDRs
+- 1GB storage
+- Basic watermarking
+- Email support
+
+### Starter ($49/month)
+- Up to 10 VDRs
+- 10GB storage
+- Advanced watermarking
+- NDA management
+- Priority support
+
+### Professional ($149/month)
+- Unlimited VDRs
+- 100GB storage
+- Dynamic watermarking
+- Custom branding
+- Analytics dashboard
+- API access
+
+### Enterprise ($499/month)
+- Everything in Professional
+- Unlimited storage
+- SSO integration
+- Dedicated support
+- Custom integrations
+- SLA guarantee
+
+## 🎯 Competitive Advantages vs Docusend/Digify
+
+1. **Edge-Native Architecture** - Built on Cloudflare Workers for global low-latency
+2. **Modern Stack** - React 19, TypeScript, latest best practices
+3. **Cost-Effective** - Lower infrastructure costs with serverless
+4. **Customizable** - Open architecture for custom features
+5. **Real-time Analytics** - Comprehensive tracking and reporting
+6. **Advanced Security** - Multi-layer security approach
+7. **Seamless Billing** - Integrated Stripe subscription management
+8. **White-Label Ready** - Full branding customization
+
+## 📝 API Endpoints
+
+### Authentication
+- `POST /api/auth/register` - Register new user
+- `POST /api/auth/login` - User login
+- `POST /api/auth/logout` - User logout
+
+### VDR Management
+- `GET /api/vdrs` - List VDRs
+- `POST /api/vdrs` - Create VDR
+- `GET /api/vdrs/:id` - Get VDR details
+- `PUT /api/vdrs/:id` - Update VDR
+- `DELETE /api/vdrs/:id` - Archive VDR
+
+### Documents
+- `POST /api/vdrs/:vdrId/documents/upload-url` - Get upload URL
+- `GET /api/vdrs/:vdrId/documents` - List documents
+- `GET /api/documents/:id/download-url` - Get download URL
+
+### Access Control
+- `POST /api/vdrs/:vdrId/access-grants` - Grant access
+- `GET /api/vdrs/:vdrId/access-grants` - List access grants
+- `PATCH /api/access-grants/:id/revoke` - Revoke access
+
+### NDA
+- `GET /api/nda-templates` - List templates
+- `POST /api/nda-templates` - Create template
+- `POST /api/nda/sign` - Sign NDA
+- `GET /api/vdrs/:vdrId/nda-status` - Check NDA status
+
+### Analytics
+- `GET /api/vdrs/:vdrId/analytics` - Get analytics
+- `GET /api/vdrs/:vdrId/activity-log` - Get activity log
+- `POST /api/analytics/track` - Track event
+
+### Billing
+- `GET /api/billing/plans` - List plans
+- `POST /api/billing/checkout-session` - Create checkout
+- `GET /api/billing/subscription` - Get subscription
+- `POST /api/billing/cancel-subscription` - Cancel subscription
+- `POST /api/billing/webhook` - Stripe webhook
+
+## 🤝 Contributing
+
+This is a production-ready SaaS application. For customization:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 📄 License
+
+Proprietary - All rights reserved
+
+## 🆘 Support
+
+For support and questions:
+- Email: support@vdrplatform.com
+- Documentation: https://docs.vdrplatform.com
+- Status: https://status.vdrplatform.com
+
+---
+
+Built with ❤️ using Cloudflare Workers, React, and modern web technologies.
