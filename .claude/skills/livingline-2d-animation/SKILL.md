@@ -22,7 +22,7 @@ Silence, "looks fine?" or partial comments are **not** approval. Record every de
 ## Art rules
 - Match the user's reference style (STYLE_GUIDE.md): ink contour with varied weight, 2–3 tone hard cel shading, hatching in the darkest tone, locked paper grain, realistic 2D anime anatomy.
 - Never recreate copyrighted productions or their characters. References are style guides only.
-- Key drawings: GPT Image 2.6 via Higgsfield (`generate_image`, high/2k). New expressions and poses are **edits of the approved frame**, aligned and masked so unchanged pixels stay identical. A new angle is a new drawing, never a warp of a flat image. Preflight with `get_cost` and log spend in APPROVALS.md.
+- **All visuals are drawn by code** (user direction, 2026-11-06): `film/lib/ink.js` toolkit + parametric rigs. Never use a text-to-image or text-to-video model for frames. Expressions are rig parameters. A new angle needs a new hand-authored drawing in code, never a warp.
 - Acting: anticipation → action → settle; offset parts (head leads, hands follow); deliberate holds; no constant idle bobbing; eyes on what they look at.
 
 ## Determinism rules

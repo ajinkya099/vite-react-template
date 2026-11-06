@@ -1,6 +1,6 @@
 # STORYBOARD — Segment 01 "2:17 AM" (cold open, 0.00–10.00 s)
 
-**Status: PROPOSED v1 — awaiting approval.** 1920×1080 · 24 fps · 240 frames · one continuous master clock.
+**Status: APPROVED v1 (2026-11-06).** 1920×1080 · 24 fps · 240 frames · one continuous master clock.
 Panels: `storyboard/panels/`. Audio timing comes from `scripts/make_audio.py` (single source of truth).
 
 **Premise (full film ≈ 7:50, per the user's script).** Dev, a confident 27-year-old trekker camped at

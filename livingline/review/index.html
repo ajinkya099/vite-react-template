@@ -69,14 +69,28 @@
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">Living Line Dark Canvas · Roopkund · Segment 01 · Approval checkpoint 1</div>
+    <div class="eyebrow">Living Line Dark Canvas · Roopkund · Segment 01 · Approval checkpoint 1b</div>
     <h1>Cold open, <em>2:17 AM</em></h1>
     <p class="lede">The first ten seconds: a breathing tent, three drips, and Dev's eyes snapping open on the narrator's "खुली". Nothing below has been animated yet. Approve or revise the storyboard, character style and music, and production starts.</p>
     <div class="spec"><span><b>1920×1080</b> 16:9</span><span><b>24</b> fps</span><span><b>240</b> frames</span><span><b>10.00</b> s</span><span>Narration: your existing ElevenLabs takes</span></div>
   </header>
 
+  <section class="v2">
+    <div class="eyebrow">Checkpoint 1b · code-drawn · awaiting your approval</div>
+    <h2>Style frame v2, drawn entirely in code</h2>
+    <p class="lede" style="margin-bottom:18px">No image model anywhere in the render. Dev is a parametric rig: hand-authored curves, variable-width ink lines, hard cel-shade shapes, seeded hatching, procedural hair locks and stubble. The tent, frost, quilting and paper grain are procedural too. The same drawing produces both faces below by changing eye, brow and mouth parameters.</p>
+    <div class="two">
+      <figure><img src="v2/code_styleframe_closed.jpg" alt="Code-drawn Dev asleep, eyes closed, brow knotted." style="width:100%;border:1px solid var(--line)"><figcaption>Rig pose before the snap: eyes closed, brow knotted.</figcaption></figure>
+      <figure><img src="v2/code_styleframe_open.jpg" alt="Code-drawn Dev with eyes snapped wide open." style="width:100%;border:1px solid var(--line)"><figcaption>Rig pose after the snap: eyes wide, pupils small, brows up, lips parted.</figcaption></figure>
+    </div>
+    <h3 style="font-family:var(--display);font-size:22px;margin:22px 0 8px">Motion test, 3.6–7.0 s (silent)</h3>
+    <video id="rigvid" controls muted playsinline preload="metadata" src="v2/rigtest_snap.mp4" style="width:100%;border:1px solid var(--line);background:#000"></video>
+    <figure style="margin-top:14px"><img src="v2/rigtest_sheet.jpg" alt="Twelve frames from the motion test: closed eyes, twitch, half-open, wide, gasp with vapour, shivering clench." style="width:100%;border:1px solid var(--line)"><figcaption>The snap on single frames: closed at f31, half at f32, wide with overshoot at f33, settled at f34. Then the gasp and vapour (f44–52) and the shivering clench (f80). The first frame is black only because the wide tent shot isn't built yet.</figcaption></figure>
+    <p class="note" style="margin-top:14px">Compared with v1 below, the code version is cleaner and more graphic. The hair is a dense mass of curly locks rather than painted strands, and the shading uses fewer, flatter tones. What code adds is that every expression is a live parameter, so acting can be tuned frame by frame without redrawing anything.</p>
+  </section>
+
   <section>
-    <h2>Style frame</h2>
+    <h2>Style frame v1 (image model, replaced)</h2>
     <figure class="hero"><img src="styleframe.jpg" alt="Dev, eyes wide in terror, lying in an olive sleeping bag inside a frosted tent, cold moonlight from the left, amber lantern glow on the right."><figcaption>The moment of the snap (5.00 s). Ink contours, hard cel shading and hatching follow your horror lineup. Moonlight is the cool key from screen-left, the dying lantern the warm fill from screen-right.</figcaption></figure>
   </section>
 

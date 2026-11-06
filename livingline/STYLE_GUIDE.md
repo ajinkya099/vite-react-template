@@ -1,6 +1,6 @@
 # STYLE GUIDE — "Roopkund" (Living Line Dark Canvas)
 
-**Status: PROPOSED — awaiting approval (see APPROVALS.md).**
+**Status: v1 (image-model) approved, then superseded by the user's code-only direction. v2 (code-drawn) is pending approval.**
 
 ## Source references (style only — no character, frame or design is copied)
 - User's horror character lineup (5 panels): ink-heavy linework, hard cel shadow shapes, cross-hatching, aged paper grain, muted palette. **Primary style reference.**
@@ -31,5 +31,7 @@ Moon key always screen-left and cool; lantern always screen-right, warm and low.
 ## Character: DEV (locked by the expression sheet once approved)
 27, Indian, lean face, defined cheekbones, messy black hair with damp clumps at the forehead, three-day stubble, thick brows, dark brown eyes. Charcoal fleece with a high pile collar, olive mummy sleeping bag. Reference files: `assets/art/v1/styleframe_dev_eyes_open_v1.png`, `assets/art/v1/dev_expression_sheet_v1.png`.
 
-## Art pipeline (honest limits)
-Key drawings are generated with GPT Image 2.6 via Higgsfield, using the style references and then the approved frame as an identity anchor. Code cannot hand-draw art at this level of detail, so this is the gap being filled. Each extra drawing (eye states, eye direction, jaw) is an **edit of the approved frame**. Only the changed region is masked in and aligned onto the base drawing, which keeps everything else pixel-stable. A flat image has no hidden parts, so every new angle or pose is a new drawing, never a warp.
+## Art pipeline (v2: code only, per the user's direction)
+Every pixel comes from code: `film/lib/ink.js` (seeded RNG and noise, Catmull-Rom shapes, variable-width ink strokes, clipped hatching, locked paper grain) and `film/lib/closeup.js` (Dev's parametric head rig plus the tent, pillow, collar and sleeping bag). No image or video model is used in rendering. The v1 generated frames are kept only as a look reference, drawn toward by eye and never traced or composited.
+Rig parameters: eyeOpen, flutter, gazeX/Y, pupil, browRaise, browKnit, mouthOpen, clench, headX/Y/Rot, breath, sweatSlide, vapor, lantern, wallPress. Acting lives in `film/lib/seg01.js` as pure functions of time.
+Known gap: the code look is cleaner and flatter than the painted v1 frame. The hair is lock-based, not individual painted strands.

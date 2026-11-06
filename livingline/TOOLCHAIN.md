@@ -49,3 +49,8 @@ npx hyperframes doctor
 cd smoke && npx hyperframes render --fps=24 --output=out/smoke_a.mp4
 python3 scripts/make_audio.py          # from livingline/
 ```
+
+## Code-drawn pipeline (v2)
+`film/` is the HyperFrames master project. `lib/ink.js` + `lib/closeup.js` + `lib/seg01.js` draw every frame on a Canvas2D from the `hf-seek` time; there are no image assets.
+Rig motion test: `npx hyperframes render --fps=24 --start=3.6 --end=7.0` gave 82 frames with no console errors.
+Still harness: `node scripts/still.mjs out.png '<pose json>'` renders `film/still.html` through Playwright.

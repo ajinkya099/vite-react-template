@@ -1,6 +1,6 @@
 # AUDIO PLAN — Segment 01
 
-**Status: PROPOSED — music direction awaiting choice.** Build: `python3 scripts/make_audio.py`.
+**Status: APPROVED — music A + procedural sub-hit SFX on the snap.** Build: `python3 scripts/make_audio.py`.
 
 ## Narration (existing, reused unchanged — ElevenLabs v4 via Higgsfield, voice "Landon")
 | Line | Higgsfield job | Clip length | Placed at | Speech span (film time) |

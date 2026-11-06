@@ -11,7 +11,8 @@ Silence is never approval. Approved outputs are never overwritten; revisions get
 | Phase | State |
 |---|---|
 | 0 Toolchain + smoke test | ✅ done — TOOLCHAIN.md |
-| 1 Storyboard, style frame, music previews | ✅ prepared — **waiting for approval** |
-| 2 Segment 01 (0–10 s) | ⏸ blocked on approval |
+| 1 Storyboard, style frame, music previews | ✅ approved 2026-11-06 |
+| 1b Code-drawn style frame v2 + rig motion test | ✅ prepared — **waiting for approval** |
+| 2 Segment 01 (0–10 s) | ⏸ blocked on v2 approval |
 | 3 Validation (QA_REPORT.md) | ⏸ |
 | 4 Next segments | ⏸ |
