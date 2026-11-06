@@ -25,6 +25,9 @@
 | Sleeping bag olive | `#3F4628` |
 | Frost / breath vapor | `#C9D3D2` at 35–60% |
 
+## Lighting model (v3, code rig)
+KEY: cool moonlight from upper screen-left. FORM SHADOW: every plane facing right or down (nose side plane, cheek past the terminator, under the brow ridge, under the nose, under the lower lip, under the jaw onto the neck). BOUNCE: the dying lantern, low screen-right, appears only as a thin warm rim inside the shadow side (jaw edge, ear rim, near nostril wing, neck edge) plus a small warm catchlight in each eye. All cel shapes are hard-edged; gradients are used only for atmosphere layers.
+
 ## Lighting continuity
 Moon key always screen-left and cool; lantern always screen-right, warm and low. At 9.0–10.0 s the lantern dims about 30%. The shadow direction never flips inside a shot.
 

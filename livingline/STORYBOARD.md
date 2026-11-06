@@ -24,3 +24,18 @@ Segment 01 is the first 10 s of the cold open.
 Close-up: closed (done) · flutter A/B · half-open · wide (style frame) · wide + small pupils · eyes-left · jaw-clench · mouth-gasp.
 Wide: clean plate (done). The sleeper's breath rise is a mask-warp of the bag only, under 1.5%, kept under the anatomy threshold.
 FX layers (baked, seeded): drip + splash, breath vapour, dust motes, paper grain (locked), lantern glow.
+
+## Director's camera notes (v3)
+**Shot 1 (wide, 0.00–3.60), to build after approval:** 0.00–0.50 locked on black. 0.50–3.60 slow dolly-in 1.00→1.06 (sine in-out) with a 20 px tilt down toward the sleeper. The wall breathes with each gust. Hard cut at 3.60.
+**Shot 2 (close-up, 3.60–10.00), built:**
+| Time | Move | Motivation |
+|---|---|---|
+| 3.60–4.90 | Creep: push 1.000→1.030 on the eyes, sine in-out | Dread while he sleeps |
+| 4.90–5.00 | Dead hold, 2 frames | Stillness before the hit |
+| 5.00 | Jolt: 8 px up-right, decays over 5 frames; punch-in +0.015 (expo out, 0.2 s) | Lands with the snap and the sub-hit |
+| 5.20–7.70 | Handheld float ±3 px (~0.5 Hz smooth noise) | Unease |
+| 7.78–8.60 | Pan 70 px toward screen-left + push to 1.065 (power2 in-out) | Follows the eye dart; frames the wall before the 8.40 press |
+| 8.60–9.70 | Hold, float halved | — |
+| 9.70–10.00 | Locked off | Stillness into segment 02 |
+
+**Acting additions (v3):** a slow frightened blink at 6.90; brows lead the lids by one frame; eyes lead the head on the dart (head follows 4 frames later); the hair trails head moves by 0.07 s; the shiver is continuous smooth noise, not stepped.
