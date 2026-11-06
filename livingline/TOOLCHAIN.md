@@ -54,3 +54,11 @@ python3 scripts/make_audio.py          # from livingline/
 `film/` is the HyperFrames master project. `lib/ink.js` + `lib/closeup.js` + `lib/seg01.js` draw every frame on a Canvas2D from the `hf-seek` time; there are no image assets.
 Rig motion test: `npx hyperframes render --fps=24 --start=3.6 --end=7.0` gave 82 frames with no console errors.
 Still harness: `node scripts/still.mjs out.png '<pose json>'` renders `film/still.html` through Playwright.
+
+## Segment 01 render (reproducible)
+```bash
+cd livingline && npm ci && python3 scripts/make_audio.py      # builds assets/audio/seg01/final_mix_seg01.wav
+cp assets/audio/seg01/final_mix_seg01.wav film/assets/audio/
+cd film && npx hyperframes check --json && npx hyperframes render --fps=24 --output=../renders/seg01_v1.mp4
+```
+Wide shot is Canvas2D, not three.js: the wall "breathing" is done by moving the drawn wall's vertices, which kept every layer in one ink renderer. three.js stays installed and verified (smoke test) for later shots that need real 3D.

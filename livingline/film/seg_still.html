@@ -1,0 +1,4 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}canvas{display:block}</style>
+<script src="lib/ink.js"></script><script src="lib/closeup.js"></script><script src="lib/wide.js"></script><script src="lib/seg01.js"></script></head>
+<body><canvas id="c" width="1920" height="1080"></canvas>
+<script>const t = parseFloat(new URLSearchParams(location.search).get("pose") || "0"); SEG01.renderAt(document.getElementById("c").getContext("2d"), t); window.__done = true;</script></body></html>

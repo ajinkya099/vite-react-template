@@ -14,6 +14,6 @@ Silence is never approval. Approved outputs are never overwritten; revisions get
 | 1 Storyboard, style frame, music previews | ✅ approved 2026-11-06 |
 | 1b Code-drawn style frame v2 + rig motion test | revisions requested |
 | 1c Code-drawn v3 (nose, lips, lighting, bag/zip, detail, fluid motion, camera direction) | ✅ prepared — **waiting for approval** |
-| 2 Segment 01 (0–10 s) | ⏸ blocked on v2 approval |
-| 3 Validation (QA_REPORT.md) | ⏸ |
+| 2 Segment 01 (0–10 s) | ✅ rendered `renders/seg01_v1.mp4` |
+| 3 Validation | ✅ QA_REPORT.md — **waiting for segment approval** |
 | 4 Next segments | ⏸ |

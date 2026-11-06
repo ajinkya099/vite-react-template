@@ -24,7 +24,9 @@ T_VO1 = 0.50          # "रात के दो बजकर सत्रह �
 T_VO2 = 3.70          # "देव की आँख ऐसे खुली… जैसे किसी ने उसे बर्फ़ीले पानी से खींचकर बाहर फेंका हो।"
 T_EYES = 5.00         # eyes snap open on "खुली"
 T_GASP = 5.30         # gasp in the narration pause (5.54–6.13)
-T_DRIPS = [0.30, 2.15, 3.95]
+T_DRIPS = [0.30, 2.15, 3.95]   # visual drips: falls start 0.30 / 2.15 (wide), hanging drop in close-up
+T_SPLASH = [0.30 + 0.32, 2.15 + 0.32]   # floor impact = fall time sqrt(2*490/3800) ≈ 0.32 s
+T_PRESS = 8.40
 
 
 def write_wav(path, x):
@@ -117,6 +119,39 @@ def ff(*args):
     subprocess.run(["ffmpeg", "-v", "error", "-y", *args], check=True)
 
 
+def snap_hit():
+    t = t_axis(2.5)
+    x = np.sin(2 * np.pi * (48 * np.exp(-t * 1.5) + 28) * t) * np.exp(-t * 2.2) * 0.55
+    for f in (412.0, 587.3, 893.1, 1311.0):
+        x += np.sin(2 * np.pi * f * t) * np.exp(-t * 1.6) * 0.035
+    return reverb(x, 2.4, 0.3, seed=12)
+
+
+def cloth_thump():
+    t = t_axis(0.8)
+    n = onepole_lp(rng.standard_normal(len(t)), 900)
+    env = np.minimum(t / 0.03, 1) * np.exp(-t * 7)
+    body = np.sin(2 * np.pi * 70 * t) * np.exp(-t * 9) * 0.5
+    return reverb((n * 1.6 + body) * env, 1.0, 0.25, seed=13)
+
+
+def final_mix():
+    """Approved: music A (ElevenLabs cold-open cue) + procedural SFX incl. B's sub-hit on the snap."""
+    sfx = np.zeros(int(DUR * SR))
+    for d in T_SPLASH:
+        place(sfx, drip(), d, 0.55)
+    place(sfx, drip(), 3.95, 0.35)                 # off-screen drip in the close-up
+    place(sfx, gasp(), T_GASP, 0.6)
+    place(sfx, snap_hit(), T_EYES, 0.9)
+    place(sfx, cloth_thump(), T_PRESS, 0.7)
+    write_wav(OUT / "sfx_final_seg01.wav", sfx)
+    ff("-i", str(OUT / "vo_seg01.wav"), "-i", str(OUT / "music_A_elevenlabs_coldopen_seg01.wav"), "-i", str(OUT / "amb_seg01.wav"),
+       "-i", str(OUT / "sfx_final_seg01.wav"), "-filter_complex",
+       "[0]asplit[v1][v2];[1]volume=-4dB[m];[m][v1]sidechaincompress=threshold=0.05:ratio=4:attack=20:release=400[md];"
+       "[v2][md][2][3]amix=4:normalize=0,alimiter=limit=0.74:level=false,afade=t=in:d=0.02,atrim=0:10",
+       "-ar", str(SR), "-c:a", "pcm_s16le", str(OUT / "final_mix_seg01.wav"))
+
+
 if __name__ == "__main__":
     sfx = np.zeros(int(DUR * SR))
     for d in T_DRIPS:
@@ -141,4 +176,5 @@ if __name__ == "__main__":
            "[v2][md][2][3]amix=4:normalize=0,alimiter=limit=0.79:level=false,atrim=0:10",
            "-ar", str(SR), "-c:a", "pcm_s16le", str(OUT / f"preview_mix_{tag}.wav"))
         ff("-i", str(OUT / f"preview_mix_{tag}.wav"), "-b:a", "192k", str(OUT / f"preview_mix_{tag}.mp3"))
+    final_mix()
     print("ok")
