@@ -29,3 +29,12 @@ Aoi = Maya, Shun = Pixie, librarian = Tallulah, ghost = Chloe (JP), announcer = 
 - G05 giggle "ふふ" and G04 "そう" verified.
 New SFX (11 × Mirelo): snowstorm, steel town, school lockers, letter open, paper burn, library, door slide, phone bell, run in snow, kerosene stove, house in storm.
 Spend this step: (23 + 10) × 0.3 = 9.9 · SFX 11 × 2 = 22 → **31.9** · project total ≈ **98.5 credits**.
+
+## 2026-11-07 · Music + full audio master v1
+- Dialogue master: `tools/timeline.py` → `audio/master/timeline.json` (timing source for everything). Narration atempo 1.07, short gaps −10%. Total **702.7 s (11:42.7)**.
+- Voice processing: PA = band-limited platform loudspeaker with slap echo; Shun's phone lines = 1995 phone band; ghost = cold close-whisper tail, G03 panned hard left.
+- Music: 6 ElevenLabs Music v2.5 cues timed to the scene spans (M1 50 s, M2 138, M3 99, M4 194, M5 133, M6 94). The cues follow internal timing prompts only loosely, so the director's silences are enforced by gain automation keyed to timeline marks (cold-open whisper, flame dip/crawl, ankle touch, ear-side question, phone click → run) plus true dead air after "Kashima Reiko".
+- SFX: procedural テケテケ crawl (paired elbow taps, distance-modelled, snow/wood surfaces), flame sputter, frost touch, phone click + Japanese 400 Hz dial tone, sub hit; generated textures placed on marks; per-scene ambience beds.
+- Master (`tools/mix.py`): **−14.0 LUFS, LRA 6.8 LU, −1.5 dBTP**. Whisper on the final mix recovers the Hindi narration, Shun's phone line and the Japanese lines word for word.
+- Spend this step: music ≈ 102 credits → project total ≈ **200 credits**.
+- Large WAVs are git-ignored; `python3 tools/timeline.py && python3 tools/mix.py` rebuilds them exactly.

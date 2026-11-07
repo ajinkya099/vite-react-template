@@ -42,7 +42,7 @@ roles = [
   [("pajp_kevin","Kevin","5.8 s · crisp, natural JR cadence",1),("pajp_marcus","Marcus","7.1 s",0),("pajp_evan","Evan","8.0 s",0)]),
 ]
 aud = '''  <section class="aud">
-    <div class="eyebrow">Audio checkpoint 2 · awaiting your picks</div>
+    <div class="eyebrow">Audio checkpoint 2 · casting approved</div>
     <h2>Narration done. Now pick the character voices.</h2>
     <p class="lede">All 63 narration lines are generated in Landon's voice, and a local Whisper model checked each one against the script. Three were regenerated: two said "Machine Expressway" instead of "Meishin", and one had a slurred ending. Below is the full narration in order with reference-style pauses, before any music or effects (8:27). Then the five roles still to cast, loudness-matched. My marked picks come only from measurements, so please choose by ear.</p>
     <div class="ad rec" style="margin:10px 0 18px"><b>Full narration preview · Landon · 8:27</b><span>Dry voice with planned pauses; music, ambience and effects come next.</span><audio id="a_narr_full" controls preload="none" src="aud/narration_landon_preview.mp3"></audio></div>

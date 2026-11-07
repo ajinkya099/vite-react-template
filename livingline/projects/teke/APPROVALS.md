@@ -14,3 +14,4 @@ Spend so far on this project: 42 credits (voice auditions + SFX first pass, see 
 | 2026-11-07 | Narrator voice | Landon (preset dc1c0a41) | **APPROVED** | user |
 | 2026-11-07 | Voice casting: Aoi = Maya, Shun = Pixie, librarian = Tallulah, ghost = Chloe (JP), announcer = Kevin (JP) | review/aud/* | **APPROVED** ("approved all", i.e. the marked picks) | user |
 | 2026-11-07 | Narration (Landon, 63 lines, Whisper-verified) | audio/vo/narrator/* @ 2e14f5e | **APPROVED** | user |
+| 2026-11-07 | **Audio master v1** (11:43) | audio/master/teke_master.mp3, review/aud/teke_audio_master_v1.mp3 | **pending** | — |
