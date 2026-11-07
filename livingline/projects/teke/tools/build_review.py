@@ -30,23 +30,29 @@ def md(s):
         i += 1
     return '\n'.join(out)
 roles = [
- ("नैरेटर · Narrator (still valid)", "अगर कभी कोहरे वाली रात में… तो भागना मत। वो आपसे तेज़ है।",
-  [("narr_landon","Landon","10.3 s · slowest, most deliberate · Roopkund voice",1),("narr_katie","Katie Narrator (your Living Line voice)","8.9 s",0),("narr_gideon","Gideon","9.8 s",0),("narr_alistair","Alistair","9.6 s",0)]),
- ("आओई · Aoi (same voices, auditioned on the old Anaya line)", "त… तुम्हारे पैर बावन वाली पैसेंजर में हैं… प्लेटफ़ॉर्म नंबर तीन पर।",
-  [("anaya_maya","Maya","4.4 s · cleanest transcript",1),("anaya_zoe","Zoe","4.7 s",0),("anaya_pixie","Pixie","4.8 s",0),("anaya_luna","Luna","4.7 s · may say 'पहर' for 'पैर'",0)]),
- ("テケテケ · the ghost (whisper; will be re-auditioned in Japanese)", "मेरे… पैर… कहाँ हैं?",
-  [("chanda_chloe","Chloe","quietest, so most likely a true whisper",1),("chanda_quinn","Quinn","",0),("chanda_skye","Skye","loudest, so least whispered",0)]),
+ ("आओई · Aoi (16)", "त… तुम्हारे पैर बावन वाली पैसेंजर में हैं… प्लेटफ़ॉर्म नंबर तीन पर।  (audition line from v1; same voices)",
+  [("anaya_maya","Maya","cleanest transcript",1),("anaya_zoe","Zoe","",0),("anaya_pixie","Pixie","",0),("anaya_luna","Luna","may say 'पहर' for 'पैर'",0)]),
+ ("शुन · Shun (9)", "नी-चान… खिड़की के बाहर कुछ है… टेके… टेके…",
+  [("shun_pixie","Pixie","7.8 s · cleanest transcript, lightest timbre",1),("shun_peanutzippy","Peanut Zippy (your Living Line voice)","9.9 s",0),("shun_benji","Benji","10.4 s · dropped one 'टेके'",0)]),
+ ("लाइब्रेरियन · Librarian", "हर सर्दी कोई न कोई बच्चा यही ढूँढने आता है… पचास साल पहले।",
+  [("lib_tallulah","Tallulah","10.1 s · slowest, cleanest transcript",1),("lib_mabel","Mabel","8.9 s",0),("lib_vesper","Vesper","8.0 s",0)]),
+ ("テケテケ · Ghost (Japanese)", "私の… 足は… どこ?",
+  [("ghostjp_chloe","Chloe","clear Japanese, whispered",1),("ghostjp_quinn","Quinn","",0),("ghostjp_skye","Skye","",0)]),
+ ("駅アナウンス · Station announcer (Japanese)", "お客様にお知らせいたします。大雪のため、最終列車は二十分ほど遅れております。",
+  [("pajp_kevin","Kevin","5.8 s · crisp, natural JR cadence",1),("pajp_marcus","Marcus","7.1 s",0),("pajp_evan","Evan","8.0 s",0)]),
 ]
 aud = '''  <section class="aud">
-    <details><summary>Earlier voice auditions that still apply (loudness-matched)</summary>
-    <p class="lede">These voices carry over to v2. Shun (a 9-year-old boy), the librarian, the Japanese station announcer and the Japanese-language ghost line need new auditions after you approve the script (about 3 credits).</p>
+    <div class="eyebrow">Audio checkpoint 2 · awaiting your picks</div>
+    <h2>Narration done. Now pick the character voices.</h2>
+    <p class="lede">All 63 narration lines are generated in Landon's voice, and a local Whisper model checked each one against the script. Three were regenerated: two said "Machine Expressway" instead of "Meishin", and one had a slurred ending. Below is the full narration in order with reference-style pauses, before any music or effects (8:27). Then the five roles still to cast, loudness-matched. My marked picks come only from measurements, so please choose by ear.</p>
+    <div class="ad rec" style="margin:10px 0 18px"><b>Full narration preview · Landon · 8:27</b><span>Dry voice with planned pauses; music, ambience and effects come next.</span><audio id="a_narr_full" controls preload="none" src="aud/narration_landon_preview.mp3"></audio></div>
 '''
 for t, line, c in roles:
     aud += f'    <h3>{t}</h3><p class="vo">“{line}”</p><div class="auds">'
     for fid, name, note, rec in c:
         aud += f'<div class="ad{" rec" if rec else ""}"><b>{name}{" · my pick" if rec else ""}</b><span>{note}</span><audio id="a_{fid}" controls preload="none" src="aud/{fid}.mp3"></audio></div>'
     aud += '</div>\n'
-aud += '    </details>\n  </section>\n'
+aud += '  </section>\n'
 script = md(open('SCRIPT_HI_v2.md').read()); treat = md(open('DIRECTOR_TREATMENT_v2.md').read()); audio = md(open('AUDIO_DIRECTION.md').read())
 page = open('tools/page_template.html').read()
 for k, v in {"{SCRIPT}": script, "{TREAT}": treat, "{AUDIO}": audio, "{AUD}": aud}.items(): page = page.replace(k, v)
