@@ -1,7 +1,7 @@
 # मेरे पैर कहाँ हैं? — पटकथा v1 (Hindi screenplay)
 
 **Living Line Dark Canvas** · मनोवैज्ञानिक हॉरर · लक्ष्य अवधि ≈ 10:45 · 1920×1080 · 16:9 · 60 fps
-**Status: DRAFT v1 — awaiting approval.**
+**Status: SUPERSEDED by SCRIPT_HI_v2.md (user direction 2026-11-07: authentic Japanese setting).**
 
 > Folklore core retained (a girl cut in two by a train crawls on her elbows and asks "where are my legs?"; one answer saves you; anyone who hears the story is visited within three nights; three rules; a second question). Characters, setting, cause, twists and ending are original to this project.
 
