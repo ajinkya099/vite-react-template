@@ -84,8 +84,8 @@
   "scene": "SCN03",
   "speaker": "narrator",
   "voice": "landon",
-  "tag": "measured",
-  "text": "मेशिन एक्सप्रेसवे। जापान के दूसरे छोर पर, हज़ार किलोमीटर दूर का एक हाईवे।"
+  "tag": "measured, slow",
+  "text": "Meishin Expressway… जापान के दूसरे छोर पर, हज़ार किलोमीटर दूर का एक हाईवे।"
  },
  {
   "id": "N12",
@@ -108,8 +108,8 @@
   "scene": "SCN03",
   "speaker": "narrator",
   "voice": "landon",
-  "tag": "dry, slightly ironic",
-  "text": "उसने चिट्ठी बैग में ठूँस दी। और फेंकना भूल गई।"
+  "tag": "dry, slightly ironic, clear",
+  "text": "उसने चिट्ठी बैग में ठूँस दी। और फेंकना… भूल गई।"
  },
  {
   "id": "N15",
@@ -268,8 +268,8 @@
   "scene": "SCN07",
   "speaker": "narrator",
   "voice": "landon",
-  "tag": "whispers",
-  "text": "मेशिन एक्सप्रेसवे पर।"
+  "tag": "whispers, slow",
+  "text": "…Meishin Expressway पर।"
  },
  {
   "id": "N35",

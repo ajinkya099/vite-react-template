@@ -13,3 +13,10 @@ Rate-limited submissions were not submitted and not charged; they were retried.
 
 ## Spend
 Auditions 20 × 0.3 = 6.0 · SFX 18 × 2 = 36.0 · **total 42.0 credits**.
+
+## 2026-11-07 · v2 auditions + full narration (Landon)
+- v2 auditions (12 submitted, 1 provider failure, Cody): Shun (Peanut Zippy, Pixie, Benji), librarian (Mabel, Tallulah, Vesper), Japanese announcer (Marcus, Kevin, Evan), ghost in Japanese (Chloe, Quinn, Skye). Whisper confirms every take speaks the intended Japanese or Hindi.
+- Narration: 63 lines (`vo/narrator/N01–N63.mp3`). Whisper-medium QA against the script: 60/63 passed first time.
+  Fixes: N11 and N34 said "Machine Expressway". Devanagari "मेशिन/मेइशिन" either misreads or is dropped, so the name is now written in Roman script, "Meishin Expressway" (verified "Meishin"/"Mayshin"). N14 ending was slurred, regenerated. Rejected takes kept in `vo/alt_takes/`.
+- Total narration audio ≈ 453 s before pause editing.
+- Spend: v2 auditions 12 × 0.3 = 3.6 · narration 63 × 0.3 = 18.9 · fixes 7 × 0.3 = 2.1 → **24.6 credits** (project total ≈ 66.6).
