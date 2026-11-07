@@ -1,7 +1,7 @@
 # テケテケ — मेरे पैर कहाँ हैं? — पटकथा v2 (Hindi narration, Japanese setting)
 
 **Living Line Dark Canvas** · लोककथा-हॉरर · लक्ष्य अवधि ≈ 10:45 · 1920×1080 · 16:9 · 60 fps
-**Status: DRAFT v2. Replaces v1 (India) per user direction: authentic Japanese legend, new characters.**
+**Status: APPROVED v2 (2026-11-07). v2.1 edit: in the letter and on the phone, Aoi says the answer in Japanese (めいしん こうそくどうろ に ある), as it is written in the letter, which also fixes the TTS pronunciation.**
 
 > **Authenticity note.** Teke Teke (テケテケ) and Kashima Reiko (カシマレイコ) are Japanese urban legends. There is no verified record of the accident. The authentic folk elements used here: the winter-Hokkaido origin; a girl cut in half by a train, kept alive briefly by the cold; the "teke teke" sound of her crawl on her elbows; her speed; the question "私の足はどこ?" and the answer "名神高速道路"; the second question "誰に聞いたの?" answered with her name, spelled as "仮面の仮、死人の死、悪魔の魔"; the "hear it and she comes within days" curse; and spread by chain letters (不幸の手紙). Real places (Muroran, Higashi-Muroran Station) are used as setting only. The characters and events are fictional.
 
@@ -41,7 +41,7 @@
 बहुत साल पहले, सर्दियों की एक रात, इसी लाइन के एक स्टेशन पर, एक लड़की प्लेटफ़ॉर्म से फिसलकर ट्रेन के नीचे आ गई। ट्रेन ने उसे कमर से दो टुकड़ों में काट दिया।
 पर उस रात इतनी ठंड थी कि उसका ख़ून जम गया… और वो तुरंत नहीं मरी। बर्फ़ पर अपनी कोहनियों के बल रेंगती रही। अपने पैर ढूँढती रही।"
 *[SFX: テケ… テケ…]*
-"अब वो पटरियों पर रेंगती है। उससे भागना मत, वो तुमसे तेज़ है। वो पूछेगी, मेरे पैर कहाँ हैं? जवाब देना: मेशिन एक्सप्रेसवे पर। गलत जवाब दिया… तो वो तुम्हें भी अपनी तरह आधा कर देगी।"
+"अब वो पटरियों पर रेंगती है। उससे भागना मत, वो तुमसे तेज़ है। वो पूछेगी, मेरे पैर कहाँ हैं? जवाब देना… *めいしん こうそくどうろ に ある*। गलत जवाब दिया… तो वो तुम्हें भी अपनी तरह आधा कर देगी।"
 **नैरेटर**: मेशिन एक्सप्रेसवे। जापान के दूसरे छोर पर, हज़ार किलोमीटर दूर का एक हाईवे।
 **आओई** (पढ़ते हुए): "फिर वो दूसरा सवाल पूछेगी। ये कहानी तुम्हें किसने सुनाई? तब कहना…"
 **नैरेटर**: और उसके आगे की स्याही बह चुकी थी। लॉकर में पिघली बर्फ़ का पानी चिट्ठी के आख़िरी हिस्से पर फैल गया था। बस आख़िरी दो अक्षर पढ़े जा रहे थे: "…イコ"। "…इको"।
@@ -116,7 +116,7 @@
 **नैरेटर**: वेटिंग रूम के कोने में रखा गुलाबी पब्लिक फ़ोन बजने लगा। रात के बारह बजे। आओई ने काँपते हाथ से रिसीवर उठाया।
 **शुन** (फ़ोन पर, रोती हुई फुसफुसाहट): "नी-चान… खिड़की के बाहर कुछ है… टेके… टेके… वो पूछ रही है, मेरे पैर कहाँ हैं…"
 **नैरेटर**: शुन। उसने भी चिट्ठी पढ़ी थी। उसका भी आज तीसरा दिन था। और उसे दूसरा जवाब नहीं पता था।
-**आओई**: "शुन, सुन! नीचे मत देखना। कहना, मेशिन एक्सप्रेसवे पर। और अगर वो पूछे किसने सुनाई… तो कहना, कशिमा रेइको! बोल!"
+**आओई**: "शुन, सुन! नीचे मत देखना। कहना… *めいしん こうそくどうろ に ある*। और अगर वो पूछे किसने सुनाई… तो कहना, कशिमा रेइको! बोल!"
 **शुन** (सिसकते हुए): "मे… मेशिन… कशिमा… रेइको…"
 *[SFX: क्लिक। डायल टोन]*
 **नैरेटर**: लाइन कट गई।

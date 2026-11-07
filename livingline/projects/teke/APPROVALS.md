@@ -12,5 +12,5 @@ Spend so far on this project: 42 credits (voice auditions + SFX first pass, see 
 | 2026-11-07 | Screenplay v2 (Muroran 1995) + treatment v2 | SCRIPT_HI_v2.md, DIRECTOR_TREATMENT_v2.md @ c8c730a | **APPROVED** | user |
 | 2026-11-07 | Language mix | Hindi + Japanese for the ghost, PA and the two answers | **APPROVED** | user |
 | 2026-11-07 | Narrator voice | Landon (preset dc1c0a41) | **APPROVED** | user |
-| 2026-11-07 | Voice casting: Aoi, Shun, librarian, ghost (JP), announcer (JP) | review/aud/* (v1 + v2 auditions) | **pending** | — |
-| 2026-11-07 | Narration (Landon, 63 lines, Whisper-verified) | audio/vo/narrator/*, preview audio/preview/narration_landon_preview.mp3 | **pending** | — |
+| 2026-11-07 | Voice casting: Aoi = Maya, Shun = Pixie, librarian = Tallulah, ghost = Chloe (JP), announcer = Kevin (JP) | review/aud/* | **APPROVED** ("approved all", i.e. the marked picks) | user |
+| 2026-11-07 | Narration (Landon, 63 lines, Whisper-verified) | audio/vo/narrator/* @ 2e14f5e | **APPROVED** | user |

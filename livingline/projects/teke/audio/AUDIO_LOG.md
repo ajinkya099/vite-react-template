@@ -20,3 +20,12 @@ Auditions 20 × 0.3 = 6.0 · SFX 18 × 2 = 36.0 · **total 42.0 credits**.
   Fixes: N11 and N34 said "Machine Expressway". Devanagari "मेशिन/मेइशिन" either misreads or is dropped, so the name is now written in Roman script, "Meishin Expressway" (verified "Meishin"/"Mayshin"). N14 ending was slurred, regenerated. Rejected takes kept in `vo/alt_takes/`.
 - Total narration audio ≈ 453 s before pause editing.
 - Spend: v2 auditions 12 × 0.3 = 3.6 · narration 63 × 0.3 = 18.9 · fixes 7 × 0.3 = 2.1 → **24.6 credits** (project total ≈ 66.6).
+
+## 2026-11-07 · Character lines (approved cast)
+Aoi = Maya, Shun = Pixie, librarian = Tallulah, ghost = Chloe (JP), announcer = Kevin (JP). Reused audition takes: S03, L01, G01, P01.
+23 new lines plus 10 fix attempts. Whisper QA findings and fixes:
+- A10 "死人" was read as "shijin" → regenerated in kana; verified "死人の死".
+- Aoi could not say "Meishin" in Roman script (Mation/Meshon/machine) → in A03 and A12 she now says the answer in Japanese kana, めいしん こうそくどうろ に ある (verified "मेशिन कोसुकु दोरो नि आरु"), as the letter would be written. Script updated (v2.1).
+- G05 giggle "ふふ" and G04 "そう" verified.
+New SFX (11 × Mirelo): snowstorm, steel town, school lockers, letter open, paper burn, library, door slide, phone bell, run in snow, kerosene stove, house in storm.
+Spend this step: (23 + 10) × 0.3 = 9.9 · SFX 11 × 2 = 22 → **31.9** · project total ≈ **98.5 credits**.
