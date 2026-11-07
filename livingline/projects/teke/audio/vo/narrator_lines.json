@@ -1,0 +1,506 @@
+[
+ {
+  "id": "N01",
+  "scene": "SCN01",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "hushed, ominous, slow",
+  "text": "अगर कभी सर्दियों की रात, किसी सुनसान स्टेशन पर, आपके पीछे से ये आवाज़ आए…"
+ },
+ {
+  "id": "N02",
+  "scene": "SCN01",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "hushed, ominous",
+  "text": "…तो भागना मत। वो आपसे तेज़ है।"
+ },
+ {
+  "id": "N03",
+  "scene": "SCN01",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "low, ominous storyteller",
+  "text": "वो अपनी कोहनियों के बल इतनी तेज़ रेंगती है, कि ट्रेन भी पीछे छूट जाए। जापान में उसे कहते हैं… टेके-टेके।"
+ },
+ {
+  "id": "N04",
+  "scene": "SCN01",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "hushed",
+  "text": "वो आपके पास आकर, बस एक सवाल पूछेगी।"
+ },
+ {
+  "id": "N05",
+  "scene": "SCN01",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "hushed, slow",
+  "text": "मेरे पैर कहाँ हैं?"
+ },
+ {
+  "id": "N06",
+  "scene": "SCN01",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "low storyteller",
+  "text": "जापान के स्कूलों में बच्चे इसका जवाब चिट्ठियों में एक-दूसरे को भेजते थे। ये कहानी ऐसी ही एक चिट्ठी की है… जिसका आख़िरी हिस्सा पढ़ा ही नहीं जा सकता था।"
+ },
+ {
+  "id": "N07",
+  "scene": "SCN02",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "slow, atmospheric storyteller",
+  "text": "मुरोरान। होक्काइडो का स्टील शहर। फ़रवरी, उन्नीस सौ पचानवे। स्टील मिल की चिमनियाँ बर्फ़ में धुआँ छोड़तीं, और समंदर से आती हवा हड्डियों तक उतर जाती।"
+ },
+ {
+  "id": "N08",
+  "scene": "SCN02",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "storyteller, slight warmth",
+  "text": "आओई मोरिता सोलह साल की थी। क्लास की वो लड़की, जो हर भूत की कहानी में ग़लती ढूँढ लेती थी। उसका छोटा भाई शुन, नौ साल का, बिल्कुल उल्टा था। हर कहानी पर यक़ीन करने वाला।"
+ },
+ {
+  "id": "N09",
+  "scene": "SCN03",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "quiet storyteller",
+  "text": "सोमवार की सुबह, स्कूल के जूतों वाले लॉकर में, आओई के जूतों के ऊपर एक लिफ़ाफ़ा रखा था। कोई नाम नहीं। अंदर, हाथ से लिखी एक चिट्ठी।"
+ },
+ {
+  "id": "N10",
+  "scene": "SCN03",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "quiet, curious",
+  "text": "सबसे ऊपर एक अजीब-सी लाइन थी, किसी पहेली जैसी। उसने उसे सजावट समझकर छोड़ दिया।"
+ },
+ {
+  "id": "N11",
+  "scene": "SCN03",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "measured",
+  "text": "मेशिन एक्सप्रेसवे। जापान के दूसरे छोर पर, हज़ार किलोमीटर दूर का एक हाईवे।"
+ },
+ {
+  "id": "N12",
+  "scene": "SCN03",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "slow, chilling",
+  "text": "और उसके आगे की स्याही बह चुकी थी। लॉकर में पिघली बर्फ़ का पानी, चिट्ठी के आख़िरी हिस्से पर फैल गया था। बस आख़िरी दो अक्षर पढ़े जा रहे थे… इको।"
+ },
+ {
+  "id": "N13",
+  "scene": "SCN03",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "quiet",
+  "text": "और सबसे नीचे एक लाइन: इस चिट्ठी को तीन दिन के अंदर, तीन लोगों को भेजो।"
+ },
+ {
+  "id": "N14",
+  "scene": "SCN03",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "dry, slightly ironic",
+  "text": "उसने चिट्ठी बैग में ठूँस दी। और फेंकना भूल गई।"
+ },
+ {
+  "id": "N15",
+  "scene": "SCN04",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "quiet storyteller",
+  "text": "उस रात, कोतात्सु के नीचे बैठे शुन ने, उसके बैग से चिट्ठी निकाली, और ज़ोर-ज़ोर से पढ़ने लगा।"
+ },
+ {
+  "id": "N16",
+  "scene": "SCN04",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "quiet, ominous",
+  "text": "पर तब तक, वो पूरी चिट्ठी पढ़ चुका था। अब ये कहानी… दो लोगों ने पढ़ी थी।"
+ },
+ {
+  "id": "N17",
+  "scene": "SCN04",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "slow",
+  "text": "उसने चिट्ठी केरोसीन स्टोव में डाल दी। काग़ज़ जलकर मुड़ा… और बचा-खुचा जवाब, हमेशा के लिए राख हो गया।"
+ },
+ {
+  "id": "N18",
+  "scene": "SCN05",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "storyteller",
+  "text": "दूसरी सुबह, शुन ने बताया कि रात को पटरी की तरफ़ से कोई आवाज़ आई थी। आओई ने उसे डाँट दिया। पर लंच ब्रेक में, वो ख़ुद मुरोरान सिटी लाइब्रेरी पहुँच गई।"
+ },
+ {
+  "id": "N19",
+  "scene": "SCN05",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "measured, uneasy",
+  "text": "उसने पुराने अख़बारों की हर सर्दी खँगाली। किसी लड़की की, किसी स्टेशन पर, ऐसी कोई ख़बर नहीं थी। कुछ भी नहीं।"
+ },
+ {
+  "id": "N20",
+  "scene": "SCN05",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "quiet, uneasy",
+  "text": "कशिमा। और चिट्ठी पर बचा था, इको। आओई ने दोनों को जोड़कर नहीं देखा। उसने सोचा, बूढ़ी औरत की याददाश्त है।"
+ },
+ {
+  "id": "N21",
+  "scene": "SCN06",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "slow, heavy",
+  "text": "तीसरा दिन। आख़िरी दिन।"
+ },
+ {
+  "id": "N22",
+  "scene": "SCN06",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "storyteller, tension rising",
+  "text": "जुकु की क्लास देर रात ख़त्म हुई। बर्फ़ीला तूफ़ान शुरू हो चुका था। बसें बंद। घर जाने का एक ही रास्ता बचा था: हिगाशी-मुरोरान स्टेशन से आख़िरी लोकल।"
+ },
+ {
+  "id": "N23",
+  "scene": "SCN06",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "low, atmospheric",
+  "text": "रात के ग्यारह बजकर चालीस मिनट। प्लेटफ़ॉर्म पर कोई नहीं। लकड़ी का एक छोटा वेटिंग रूम, और उसमें केरोसीन स्टोव की नीली लौ।"
+ },
+ {
+  "id": "N24",
+  "scene": "SCN06",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "flat, quiet",
+  "text": "बर्फ़ की वजह से, आख़िरी ट्रेन बीस मिनट लेट थी।"
+ },
+ {
+  "id": "N25",
+  "scene": "SCN06",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "low, tense",
+  "text": "वो स्टोव के पास बेंच पर बैठ गई। दरवाज़े की तरफ़ पीठ करके।"
+ },
+ {
+  "id": "N26",
+  "scene": "SCN06",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "tense, almost a whisper",
+  "text": "और स्टोव की लौ… काँपकर छोटी हो गई।"
+ },
+ {
+  "id": "N27",
+  "scene": "SCN06",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "whispers",
+  "text": "पटरियों से।"
+ },
+ {
+  "id": "N28",
+  "scene": "SCN06",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "whispers",
+  "text": "पास।"
+ },
+ {
+  "id": "N29",
+  "scene": "SCN06",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "tense whisper",
+  "text": "प्लेटफ़ॉर्म पर। वेटिंग रूम के दरवाज़े के ठीक बाहर।"
+ },
+ {
+  "id": "N30",
+  "scene": "SCN06",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "tense, low",
+  "text": "उसके पैरों की हर नस भागना चाहती थी। पर चिट्ठी की एक लाइन याद आई। भागना मत। वो तुमसे तेज़ है।"
+ },
+ {
+  "id": "N31",
+  "scene": "SCN07",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "tense, low, slow",
+  "text": "वेटिंग रूम का दरवाज़ा अपने आप खिसककर खुला। ठंडी हवा अंदर आई। और फ़र्श पर, कुछ घिसटता हुआ अंदर आया।"
+ },
+ {
+  "id": "N32",
+  "scene": "SCN07",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "almost a whisper",
+  "text": "आओई ने आँखें स्टोव की लौ पर टिका दीं। नीचे नहीं देखा।"
+ },
+ {
+  "id": "N33",
+  "scene": "SCN07",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "whispers, dread",
+  "text": "एक हाथ उसके टखने पर टिका। उँगलियाँ बर्फ़ जैसी। और बेंच के नीचे से, एक लड़की की आवाज़ आई…"
+ },
+ {
+  "id": "N34",
+  "scene": "SCN07",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "whispers",
+  "text": "मेशिन एक्सप्रेसवे पर।"
+ },
+ {
+  "id": "N35",
+  "scene": "SCN07",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "slow, low",
+  "text": "फिर, धीरे-धीरे, वो आवाज़ बाहर गई। पटरियों पर उतरी। दक्षिण की तरफ़। हज़ार किलोमीटर दूर, एक हाईवे की तरफ़।"
+ },
+ {
+  "id": "N36",
+  "scene": "SCN07",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "relieved, then tense",
+  "text": "आओई ने साँस छोड़ी। स्टोव की लौ फिर ऊँची हुई। और तभी, उसके कान के ठीक पीछे से, वही आवाज़ आई…"
+ },
+ {
+  "id": "N37",
+  "scene": "SCN07",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "whispers, chilling",
+  "text": "ये कहानी… तुम्हें किसने सुनाई?"
+ },
+ {
+  "id": "N38",
+  "scene": "SCN08",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "tense, low",
+  "text": "यही वो सवाल था, जिसका जवाब पानी में बह गया था।"
+ },
+ {
+  "id": "N39",
+  "scene": "SCN08",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "tense, quickening",
+  "text": "आओई का दिमाग़ जम गया। फिर उसे दो चीज़ें याद आईं। लाइब्रेरियन की आवाज़… का… शि… मा… और चिट्ठी पर बचे दो अक्षर… इको।"
+ },
+ {
+  "id": "N40",
+  "scene": "SCN08",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "tense",
+  "text": "और एक तीसरी चीज़। चिट्ठी की सबसे ऊपर वाली पहेली, जिसे उसने सजावट समझा था।"
+ },
+ {
+  "id": "N41",
+  "scene": "SCN08",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "whispers, realisation",
+  "text": "मुखौटे का का। मुर्दे का शि। शैतान का मा।"
+ },
+ {
+  "id": "N42",
+  "scene": "SCN08",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "chilling, slow",
+  "text": "चिट्ठी किसी बच्चे ने नहीं भेजी थी। उसने अपना नाम ख़ुद लिखकर भेजा था।"
+ },
+ {
+  "id": "N43",
+  "scene": "SCN08",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "very quiet, eerie",
+  "text": "उसके कान के पीछे, एक बहुत धीमी हँसी आई। जैसे किसी ने बहुत दिनों बाद उसे पहचान लिया हो।"
+ },
+ {
+  "id": "N44",
+  "scene": "SCN08",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "low",
+  "text": "और टेके-टेके की आवाज़, बर्फ़ में ग़ायब हो गई।"
+ },
+ {
+  "id": "N45",
+  "scene": "SCN09",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "tense storyteller",
+  "text": "वेटिंग रूम के कोने में रखा गुलाबी पब्लिक फ़ोन बजने लगा। रात के बारह बजे। आओई ने काँपते हाथ से रिसीवर उठाया।"
+ },
+ {
+  "id": "N46",
+  "scene": "SCN09",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "urgent, low",
+  "text": "शुन। उसने भी चिट्ठी पढ़ी थी। उसका भी आज तीसरा दिन था। और उसे दूसरा जवाब नहीं पता था।"
+ },
+ {
+  "id": "N47",
+  "scene": "SCN09",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "abrupt, quiet",
+  "text": "लाइन कट गई।"
+ },
+ {
+  "id": "N48",
+  "scene": "SCN09",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "urgent, breathless",
+  "text": "आख़िरी ट्रेन प्लेटफ़ॉर्म पर आई। आओई उसमें नहीं चढ़ी। वो भागी। दो किलोमीटर, बर्फ़ीले तूफ़ान में।"
+ },
+ {
+  "id": "N49",
+  "scene": "SCN10",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "slow, dread",
+  "text": "घर की खिड़की खुली थी। बर्फ़ अंदर उड़ रही थी। और बाहर, बर्फ़ में, पटरी की तरफ़ से खिड़की तक, एक लंबी, पतली लकीर बनी थी। जैसे कुछ घिसटकर आया हो।"
+ },
+ {
+  "id": "N50",
+  "scene": "SCN10",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "relief, quiet",
+  "text": "शुन कोतात्सु के नीचे सिकुड़ा बैठा था। ज़िंदा। काँपता हुआ।"
+ },
+ {
+  "id": "N51",
+  "scene": "SCN10",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "quiet, then uneasy",
+  "text": "आओई ने उसे सीने से लगा लिया। तब उसकी नज़र शुन की मेज़ पर पड़ी। तीन लिफ़ाफ़े। उन पर तीन बच्चों के नाम, शुन की टेढ़ी-मेढ़ी लिखावट में।"
+ },
+ {
+  "id": "N52",
+  "scene": "SCN10",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "slow, chilling",
+  "text": "पर शुन ने तो चिट्ठी जलते हुए देखी थी। उसे पूरी चिट्ठी याद कैसे थी?"
+ },
+ {
+  "id": "N53",
+  "scene": "SCN10",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "slow, building dread",
+  "text": "आओई ने एक लिफ़ाफ़ा खोला। चिट्ठी पूरी थी। हर शब्द। और आख़िर में, जहाँ पानी ने स्याही बहा दी थी, वहाँ इस बार साफ़ लिखा था: तब कहना, कशिमा रेइको।"
+ },
+ {
+  "id": "N54",
+  "scene": "SCN10",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "whispers, chilling",
+  "text": "और लिखावट… शुन की नहीं थी।"
+ },
+ {
+  "id": "N55",
+  "scene": "SCN11",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "slow, cold",
+  "text": "सुबह तूफ़ान थमा। मेज़ ख़ाली थी। तीनों लिफ़ाफ़े ग़ायब।"
+ },
+ {
+  "id": "N56",
+  "scene": "SCN11",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "slow, chilling",
+  "text": "खिड़की के बाहर, ताज़ा बर्फ़ में, वही लंबी पतली लकीर फिर बनी थी। पर इस बार, वो पटरी की तरफ़ नहीं जाती थी। वो गली के मोड़ तक जाती थी। उस लाल डाकपेटी तक। और वहीं ख़त्म होती थी।"
+ },
+ {
+  "id": "N57",
+  "scene": "SCN12",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "calm, deep, hushed",
+  "text": "टेके-टेके की कहानी किसी अख़बार में दर्ज नहीं है। किसी पुलिस रिकॉर्ड में नहीं। जापान में कहते हैं, उसे किसी रिकॉर्ड की ज़रूरत नहीं।"
+ },
+ {
+  "id": "N58",
+  "scene": "SCN12",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "deep, intimate, slow",
+  "text": "वो तब तक ज़िंदा रहती है, जब तक उसकी कहानी सुनाई जाती है। चिट्ठियों में। फ़ोन पर। स्कूल के गलियारों में। …और अब, आपकी स्क्रीन पर।"
+ },
+ {
+  "id": "N59",
+  "scene": "SCN13",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "deep, direct, intimate",
+  "text": "तो अब आपने ये कहानी सुन ली है। आप जानते हैं इसका मतलब। तीन दिन।"
+ },
+ {
+  "id": "N60",
+  "scene": "SCN13",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "direct, measured",
+  "text": "जब वो पूछे, वताशी नो आशी वा दोको… कहना: मेइशिन कोसोकु दोरो नि आरु। मेशिन एक्सप्रेसवे पर।"
+ },
+ {
+  "id": "N61",
+  "scene": "SCN13",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "direct, low",
+  "text": "और जब वो पूछे, दारे नि किइता नो… तो मेरा नाम मत लेना। उसका नाम लेना। कामेन नो का… शिनिन नो शि… आकुमा नो मा… कशिमा रेइको।"
+ },
+ {
+  "id": "N62",
+  "scene": "SCN13",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "dry, sly",
+  "text": "मैं आपसे ये नहीं कहूँगा कि ये कहानी तीन लोगों को भेजिए। …वो काम, वो ख़ुद कर लेती है।"
+ },
+ {
+  "id": "N63",
+  "scene": "SCN13",
+  "speaker": "narrator",
+  "voice": "landon",
+  "tag": "warm, then ominous",
+  "text": "कमेंट में बताइए: अगर वो चिट्ठी आपके लॉकर में होती, तो आप क्या करते? और आज रात… अपनी खिड़की बंद रखिएगा।"
+ }
+]
